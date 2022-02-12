@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment 2</title>
+	<script type="text/javascript">
+		function ChangeBackground() {
+			document.body.style.background = "red";
+		}
+	</script>
+</head>
+<body>
+	<h1>Dado Tea Lunch Special</h1>
+	Mumbai Through Friday<br>
+	 11am - 3pm <br>
+	 $9.95 plus tax<br><br>
+	 Includes Sandwich, Snack, Drink
+	 <form action="submit.html" method="post">
+	 	<fieldset>
+	 		<legend>Order Information</legend><br>
+	 		<label>Name</label><br>
+	 		<input type="text" name="name"><br><br>
+	 		<input type="radio" name="Order">Here <br>
+	 		<input type="radio" name="Order">To Go
+	 	</fieldset>
+	 	<fieldset>
+	 		<legend>Sandwichs</legend><br>
+	 		<b>Monday</b><br>
+	 		<input type="radio" name="food" value="Tomato Mozzaralle">Tomato Mozzaralle <br>
+	 		<input type="radio" name="food" value="Chicken Salad">Chicken Salad <br><br>
+
+	 		<b>Tuesday</b><br>
+	 		<input type="radio" name="food" value="Greek Salad Warp">Greek Salad Warp <br>
+	 		<input type="radio" name="food" value="Toto Warp">Toto Warp <br><br>
+
+	 		<b>Wednesday</b><br>
+	 		<input type="radio" name="food" value="Red Peper Hummus">Red Peper Hummus <br>
+	 		<input type="radio" name="food" value="Rosated Turkey">Roasted Turkey <br><br>
+
+	 		<b>Thursday</b><br>
+	 		<input type="radio" name="food" value="Carrot-Ginger Hummus Warp">Carrot-Ginger Hummus Warp <br>
+	 		<input type="radio" name="food" value="Egg-Salad">Egg-Salad <br><br>
+
+	 		<b>Friday</b><br>
+	 		<input type="radio" name="food" value="Dado Warp">Dado Warp <br>
+	 		<input type="radio" name="food" value="Tuna Salad">Tuna Salad <br><br>
+
+	 		<hr>
+
+	 		<input type="checkbox" name="Gluten Free Bread" value="Gluten Free Bread">Gluten Free Bread(75 extra) <br>
+	 	</fieldset>
+	 	<fieldset>
+	 		<legend>Snack</legend><br>
+	 		<b>Snacks</b><br>
+	 		<input type="radio" name="food" value="Apple">Apple <br>
+	 		<input type="radio" name="food" value="Banana">Banana <br>
+	 		<input type="radio" name="food" value="Potato Chips">Potato Chips <br><br>
+	 	</fieldset>
+	 	<fieldset>
+	 		<legend>Drink</legend><br>
+	 		<b>Drinks</b><br>
+	 		<select name="Drinks">
+	 			<option value="Tea">Tea</option>
+	 			<option value="Coffee">Coffee</option>
+	 			<option value="Mango Juice">Mango Juice</option>
+	 			<option value="Apple Juice">Apple Juice</option>
+	 			<option value="Falooda">Falooda</option>
+	 		</select>
+
+	 		<hr>	
+
+	 		<input type="checkbox" name="Large Drink" value="Large Drink">Large Drink(75 extra) <br>
+	 	</fieldset><br>
+		<input type="submit" value="place order" name="place order">
+	 </form>
+	 <br><br><hr><br><br>
+	 <form action="submit.html" method="post">
+	 	<label>Name:-</label><input type="text" name="name"><br>
+	 	<label>LastName:-</label><input type="text" name="LastName"><br>
+	 	<label>Contact Number:-</label><input type="number" name="number"><br>
+	 	<label>Email:-</label><input type="email" name="email"><br>
+	 	<button onclick="ChangeBackground()">Change Background</button>
+	 	<input type="submit" name="submit">
+	 </form>
+	 <br><br><hr><br><br>
+	 <audio controls>
+	 	<source src="music.mp3" type="audio/mp3">
+	 </audio>
+	 <br><br><hr><br><br>
+	 <video controls>
+	 	<source src="game.mp4" type="video/mp4">
+	 </video>
+</body>
+</html>
